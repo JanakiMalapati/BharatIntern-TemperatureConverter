@@ -1,0 +1,74 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.main
+{
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+.root
+{
+    width: 430px;
+    margin-top: 200px;
+    border-radius: 10px;
+    background-color:rgba(221, 160, 221, 0.669);
+    padding-bottom: 20px;
+}
+label
+{
+    font-size: 25px;
+}
+select
+{
+    cursor: pointer;
+    height: 25px;
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+input[type="number"]
+{
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 180px;
+    font-size: 15px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+button
+{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 15px;
+    height: 25px;
+}
+.reset
+{
+    background-color:green;
+    color: aliceblue;
+    margin-left: 60px;
+}
+.convert
+{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 15px;
+    height: 25px;
+    background-color: rgba(0, 0, 255, 0.854);
+    color: aliceblue;
+    
+}
